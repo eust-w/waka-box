@@ -7,6 +7,7 @@ on:
 jobs:
   update-gist:
     runs-on: ubuntu-latest
+# Add environment variable if you have one to avoid errors with reading secrets
     steps:
       - uses: actions/checkout@master
       - name: Update gist
